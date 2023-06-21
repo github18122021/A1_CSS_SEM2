@@ -1,0 +1,156 @@
+/* Import the custom fonts */
+@import url("https://fonts.googleapis.com/css2?family=Kablammo&family=Roboto+Condensed&family=Roboto:wght@100;300;900&display=swap");
+
+/* Type Selector */
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin: 20px;
+}
+
+/* Class Selector */
+.intro {
+  background-color: #f2f2f2;
+  background-image: linear-gradient(to bottom, #f5f5f5, #ffffff);
+}
+
+/* ID Selector */
+#zen-intro {
+  padding: 20px;
+}
+
+/* Attribute Selector */
+a[href="/examples/index"] {
+  color: blue;
+}
+
+/* Pseudo-Class Selector */
+a:hover {
+  text-decoration: underline;
+}
+
+/* Pseudo-Element Selector */
+h1::after {
+  content: " - CSS Zen Garden";
+}
+
+/* Descendant Combinator */
+.header h1 {
+  font-size: 24px;
+}
+
+/* Child Combinator */
+.supporting > .explanation {
+  margin-bottom: 20px;
+}
+
+/* Direct Sibling Combinator */
+.explanation + .participation {
+  border-top: 1px solid #ccc;
+}
+
+/* General Sibling Combinator */
+.participation ~ .benefits {
+  margin-top: 20px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Kablammo", sans-serif;
+  color: #333;
+}
+
+/* Header Styles */
+header h1 {
+  font-size: 36px;
+}
+
+header h2 {
+  font-size: 24px;
+  font-weight: 300;
+  color: #666;
+}
+
+/* Main Content Styles */
+.intro p {
+  margin-bottom: 1em;
+}
+
+.summary a {
+  color: #007bff;
+}
+
+.preamble p {
+  color: #666;
+}
+
+.explanation h3,
+.participation h3,
+.benefits h3,
+.requirements h3 {
+  color: #333;
+  margin-top: 1.5em;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  background-color: #f8f9fa;
+  padding: 1.5em;
+}
+
+.design-selection h3.select {
+  color: #333;
+  font-size: 18px;
+}
+
+.design-name {
+  font-weight: 900;
+  color: #333;
+}
+
+.designer-name {
+  color: #666;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #f8f9fa;
+  padding: 1em;
+  text-align: center;
+}
+
+footer a {
+  color: #333;
+  margin-right: 1em;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.intro {
+  padding: 20px;
+}
+
+.summary,
+.preamble {
+  margin-bottom: 20px;
+}
+
+/* Add a hover effect to the navigation links */
+a:hover {
+    color: red;
+  }
+  
